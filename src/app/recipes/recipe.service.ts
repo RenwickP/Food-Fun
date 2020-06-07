@@ -30,5 +30,6 @@ export class RecipeService {
 
   addIngredientsToShoppingList(ingredients: Ingredient[]) {
     this.slService.addIngredients(ingredients);
+    console.log("test time");
   }
 }
